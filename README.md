@@ -2,7 +2,7 @@
 Gym Website
 This project is a full-stack web application developed using the MERN stack (MongoDB, Express, React, and Node.js). It is designed to showcase a modern, responsive gym website with various features such as membership details, class schedules, and contact information.
 
-Table of Contents
+# Table of Contents
 Features
 Technologies Used
 Installation
@@ -12,7 +12,7 @@ API Routes
 Deployment
 Contributing
 License
-Features
+# Features
 Home Page: A landing page showcasing the gym's facilities, services, and testimonials.
 Membership Plans: Information about different membership packages.
 Class Schedules: Display of available classes and their schedules.
@@ -20,7 +20,7 @@ Trainer Profiles: Information about gym trainers, their expertise, and qualifica
 Contact Form: Users can send inquiries to the gym via an integrated contact form.
 Login & Registration: User authentication for members.
 Admin Dashboard: Allows admins to manage classes, trainers, and memberships.
-Technologies Used
+# Technologies Used
 Frontend: React, CSS
 Backend: Node.js, Express
 Database: MongoDB
@@ -30,20 +30,20 @@ Axios (for API requests)
 Mongoose (for MongoDB object modeling)
 JWT (for authentication)
 React Router (for navigation)
-Installation
+# Installation
 Clone the repository:
 bash
 Copy code
 git clone https://github.com/your-username/gym-website.git
-Navigate to the project directory:
+# Navigate to the project directory:
 bash
 Copy code
 cd gym-website
-Install server dependencies:
+# Install server dependencies:
 bash
 Copy code
 npm install
-Install client dependencies:
+# Install client dependencies:
 bash
 Copy code
 cd client
@@ -71,7 +71,7 @@ npm start
 Folder Structure
 php
 Copy code
-gym-website/
+# gym-website/
 │
 ├── client/                # React frontend
 │   ├── public/
