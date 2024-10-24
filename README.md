@@ -68,40 +68,13 @@ bash
 Copy code
 cd client
 npm start
-Folder Structure
-php
-Copy code
-# gym-website/
-│
-├── client/                # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── styles/
-│   │   └── App.js
-│   └── package.json
-│
-├── models/                # MongoDB models (e.g., User, Membership)
-├── routes/                # Express API routes
-├── controllers/           # Route controllers for handling logic
-├── config/                # Configuration files (e.g., database connection)
-├── server.js              # Entry point for the backend server
-└── package.json           # Backend dependencies
-API Routes
-/api/users: Handles user registration and login.
-/api/memberships: CRUD operations for gym memberships.
-/api/classes: CRUD operations for class schedules.
-/api/contact: Send contact form details to the gym's email.
-Deployment
-To deploy the application on platforms like Heroku, Netlify, or Vercel:
 
-Set up your environment variables for production.
+# Set up your environment variables for production.
 Ensure MongoDB is connected through a cloud service like MongoDB Atlas.
 Deploy the frontend and backend separately or together.
 Contributing
 If you would like to contribute, please fork the repository and submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License.
 
